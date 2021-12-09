@@ -1,0 +1,173 @@
+<div class=" header bg-danger pb-6">
+  <div class=" container-fluid">
+    <div class=" header-body">
+      <div class=" row align-items-center py-4">
+        <div class=" col-lg-2 col-7 page-title">
+          <h6 class=" h2 text-white d-inline-block mb-0">Batch Management</h6>
+        </div>
+        <div class=" col-lg-3 col-7">
+          <h6 class=" h3 text-white d-inline-block mb-0">Execute and manage batch processes</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class=" container-fluid mt--6">
+  <div class=" row">
+    <div class=" col">
+      <div class=" card">
+        <div class=" card-footer py-4">
+          <div class=" row">
+            <div class=" col-xl-12 col-md-3">
+                <div class=" card-body">
+                  <div class=" row">
+                    <div class=" col-xl-3">
+                      <h5 class=" card-title text-uppercase text-muted mb-0">
+                        Transaction Date
+                      </h5>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class=" col-xl-3">
+                      <h5 class=" card-title text-uppercase text-muted mb-0">
+                        Table name
+                      </h5>
+                      <select name="status" id="status" class="form-control">
+                        <option value="all">All</option>
+                      </select>
+                    </div>
+
+                    <div class=" col-xl-3">
+                      <h5 class=" card-title text-uppercase text-muted mb-0">
+                        Status
+                      </h5>
+                      <select name="status" id="status" class="form-control">
+                        <option value="all">All</option>
+                      </select>
+                    </div>
+
+                    <div class=" col-xl-3">
+                      <h5 class=" card-title text-uppercase text-muted mb-0">
+                        Keyword
+                      </h5>
+                      <div class="col-sm-12 keyword">
+                        <input type="text" class="form-control search" placeholder="Keyword">
+                        <button class="btn btn-primary btn-search">Search</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="button-area">
+          <button class="btn btn-primary"><i class="ni ni-button-play"></i>&nbsp;Execute</button>
+          <button class="btn btn-control"><i class="ni ni-bullet-list-67"></i>&nbsp;View logs</button>
+          <button class="btn btn-control"><i class="ni ni-atom"></i>&nbsp;Simulate</button>
+          <div class="toggle-filter"><i class="ni ni-bold-up"></i>&nbsp; Hide Filter</div><br>
+          <div class="choose-quantity">
+            <select name="quantity" id="quantity" class="form-control">
+              <option value="5">5</option>
+            </select>
+            <span>&nbsp; records</span>
+          </div>
+          <div class="filter-collapse" id="Searchbox"><input type="text" class="form-control" placeholder="Search"></div><br>
+          </div>
+          <div class=" table-responsive">
+            <table class=" table align-items-center table-flush table-hover">
+              <thead class=" thead-light">
+                <tr>
+                  <th class="check-col">
+                    <div class=" custom-control custom-checkbox">
+                      <input
+                        class=" custom-control-input"
+                        id="table-check-all"
+                        type="checkbox"
+                      />
+
+                      <label class=" custom-control-label" for="table-check-all">
+                      </label>
+                    </div>
+                  </th>
+
+                  <th class="batch-col">Batch name</th>
+
+                  <th class="status-col">Status</th>
+
+                  <th class="date-col">Date</th>
+
+                  <th class="message-col">Message</th>
+
+                  <th class="duration-col">Duration</th>
+
+                  <th class="user-col">Execution user</th>
+
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th class="check-col">
+                    <div class=" custom-control custom-checkbox">
+                      <input
+                        class=" custom-control-input"
+                        id="table-check-all"
+                        type="checkbox"
+                      />
+
+                      <label class=" custom-control-label" for="table-check-all">
+                      </label>
+                    </div>
+                  </th>
+                  <td><span class=" text-muted batch-col"> SBV_CFMAST-Customer Information</span></td>
+
+                  <td><span class=" text-muted status-col"> Completed </span></td>
+
+                  <td><span class=" text-muted date-col"> 30/06/2019 </span></td>
+
+                  <td><span class=" text-muted message-col"></span></td>
+
+                  <td><span class=" text-muted duration-col">43 ms</span></td>
+
+                  <td><span class=" text-muted creator-col">
+                    <img
+                    class=" rounded-circle border-secondary ava-image"
+                    src="assets/img/theme/team-4.jpg"
+                    />
+                  <div class="user-info">
+                    admin
+                    <h6>a few second ago</h6>
+                  </div>
+                  </span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="foot-content">
+            Showing 1 to 5 of 211 entries &nbsp;
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

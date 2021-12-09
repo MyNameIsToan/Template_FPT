@@ -1,0 +1,168 @@
+<div class=" header bg-danger pb-6">
+  <div class=" container-fluid">
+    <div class=" header-body">
+      <div class=" row align-items-center py-4">
+        <div class=" col-lg-2 col-7 page-title">
+          <h6 class=" h2 text-white d-inline-block mb-0">Import Management</h6>
+        </div>
+        <div class=" col-lg-3 col-7">
+          <h6 class=" h3 text-white d-inline-block mb-0">Upload and import file</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class=" container-fluid mt--6">
+  <div class=" card">
+    <div class=" row">
+      <div class=" col-xl-12 col-md-3">
+          <div class=" card-body">
+            <div class=" row">
+              <div class=" col-xl-3">
+                <h5 class=" card-title text-uppercase text-muted mb-0">
+                  Table name
+                </h5>
+                <select name="status" id="status" class="form-control">
+                  <option value="all">All</option>
+                </select>
+              </div>
+
+              <div class=" col-xl-3">
+                <h5 class=" card-title text-uppercase text-muted mb-0">
+                  Status
+                </h5>
+                <select name="status" id="status" class="form-control">
+                  <option value="all">All</option>
+                </select>
+              </div>
+
+              <div class=" col-xl-3">
+                <h5 class=" card-title text-uppercase text-muted mb-0">
+                  Transaction Date
+                </h5>
+                <input type="text" class="form-control">
+              </div>
+
+
+              <div class=" col-xl-3">
+                <h5 class=" card-title text-uppercase text-muted mb-0">
+                  Keyword
+                </h5>
+                <div class="col-sm-12 keyword">
+                  <input type="text" class="form-control search" placeholder="Keyword">
+                  <button class="btn btn-primary btn-search">Search</button>
+                </div>
+              </div>
+              <div class="button-area">
+                <button class="btn btn-control"><i class="ni ni-fat-add"></i>&nbsp;Import</button>
+                <button class="btn btn-control"><i class="ni ni-check-bold"></i>&nbsp;Submit</button>
+                <button class="btn btn-control"><i class="ni ni-check-bold"></i>&nbsp;Review</button>
+                <button class="btn btn-control"><i class="ni ni-fat-remove"></i>&nbsp;Cancel</button>
+                <button class="btn btn-control"><i class="ni ni-bullet-list-67"></i>&nbsp;View logs</button>
+                <button class="btn btn-control"><i class="ni ni-cloud-download-95"></i>&nbsp;Download</button>
+                <button class="btn btn-primary"><i class="ni ni-cloud-upload-96"></i>&nbsp;Upload</button>
+                <div id="filter-collapse"><i class="ni ni-bold-up"></i>&nbsp; Hide Filter</div><br>
+                <div class="entries">
+                  <select name="quantity" id="quantity" class="form-control">
+                    <option value="10">10</option>
+                  </select>
+                  <p id="records">records</p>
+                </div>
+              </div>
+            </div>
+            <div class=" table-responsive">
+              <table class=" table align-items-center table-flush table-hover">
+                <thead class=" thead-light">
+                  <tr>
+                    <th>
+                      <div class=" custom-control custom-checkbox">
+                        <input
+                          class=" custom-control-input"
+                          id="table-check-all"
+                          type="checkbox"
+                        />
+
+                        <label class=" custom-control-label" for="table-check-all">
+                        </label>
+                      </div>
+                    </th>
+
+                    <th>File name</th>
+
+                    <th>File type</th>
+
+                    <th>Transaction Date</th>
+
+                    <th>Status</th>
+
+                    <th>Import rows</th>
+
+                    <th>Upload user</th>
+
+                    <th>Execution user</th>
+
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <th>
+                      <div class=" custom-control custom-checkbox">
+                        <input
+                          class=" custom-control-input"
+                          id="table-check-all"
+                          type="checkbox"
+                        />
+
+                        <label class=" custom-control-label" for="table-check-all">
+                        </label>
+                      </div>
+                    </th>
+
+                    <td class=" table-user"><b> Phong Ban </b></td>
+
+                    <td><span class=" text-muted"> Added </span></td>
+
+                    <td><span class=" text-muted"> Added </span></td>
+
+                    <td><span class=" text-muted"> Added </span></td>
+
+                    <td><span class=" text-muted"> Added </span></td>
+
+                    <td><span class=" text-muted"> Added </span></td>
+
+                    <td><span class=" text-muted"> Added </span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="footer-info">
+            Showing 1 to 10 of 35 entries &nbsp; 1 row selected
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>

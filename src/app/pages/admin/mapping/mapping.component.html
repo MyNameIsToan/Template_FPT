@@ -1,0 +1,104 @@
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col">
+      <h4>Search information</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <h5>Type</h5>
+      <select name="type" id="type" class="form-control">
+        <option value="all">All</option>
+      </select>
+    </div>
+    <div class="col-2">
+      <h5>Status</h5>
+      <select name="type" id="type" class="form-control">
+        <option value="all">All</option>
+      </select>
+    </div>
+    <div class="col-3">
+      <h5>Transaction Date</h5>
+      <input type="date" class="form-control">
+    </div>
+    <div class="col-3">
+      <h5>Keyword</h5>
+      <input type="text" placeholder="Search..." class="form-control">
+    </div>
+    <div class="col-2">
+      <br>
+      <button type="button" class="btn btn-primary btn-search">Search  </button>
+    </div>
+  </div>
+  <br> <br>
+  <div class="row justify-content-end">
+  <div class="col-3">
+    <button type="button" class="btn btn-primary">Mapping</button>
+    <button type="button" class="btn btn-primary">View Log</button>
+  </div>
+  </div>
+  <br> <br>
+  <div class="row">
+    <div class="col">
+      <h4>Mapping list(7)</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <table class="table table-bordered">
+        <thead  class="thead">
+          <tr>
+            <th scope="col" style="width:1%"><input type="checkbox"></th>
+            <th scope="col" style="width:30%">Mapping Name</th>
+            <th scope="col" style="width:10%">Mapping Date</th>
+            <th scope="col" style="width:10%">Status</th>
+            <th scope="col" style="width:20%">Message</th>
+            <th scope="col" style="width:10%">Duration</th>
+            <th scope="col" style="width:20%">Execution User</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td class="mapping_name">TURNING DATA</td>
+            <td>15/01/2022</td>
+            <td>Completed</td>
+            <td>Sucessful</td>
+            <td>11ms</td>
+            <td>
+              <img src="../../../../assets/img/icons/common/avatar.jpg">
+              <div class="ExecUser">
+              <span>
+                System
+              </span><br>
+              <span>
+                <h6>5 hours ago</h6>
+              </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row"><input type="checkbox"></th>
+            <td class="mapping_name">Backup SD_VNMQCA87_DAILY </td>
+            <td>15/01/2022</td>
+            <td>Completed</td>
+            <td>Fail</td>
+            <td>65ms</td>
+            <td>
+              <img src="../../../../assets/img/icons/common/avatar.jpg">
+              <div class="ExecUser">
+              <span>
+                Admin
+              </span><br>
+              <span>
+                <h6>12 days ago</h6>
+              </span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

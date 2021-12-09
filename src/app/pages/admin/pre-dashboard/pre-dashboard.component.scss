@@ -1,0 +1,83 @@
+.page-title{
+  border-right: 0.1em solid white;
+}
+
+.quantity{
+  float: right;
+}
+
+.image-area{
+  text-align: center;
+  width: 10em;
+}
+
+.deadline-content-area{
+  height: 3.6em;
+  text-align: center;
+}
+
+.progress{
+  margin-top: 1.5em;
+}
+
+.complete{
+  line-height: 0px;
+}
+
+.content{
+  line-height: 8px;
+}
+
+h5{
+  margin-top: 8px;
+}
+
+.number-displayed{
+  font-size: 1.5em;
+}
+
+#report{
+  color: aqua;
+}
+
+#batch{
+  color: red;
+}
+
+#import{
+  color: aquamarine;
+}
+
+#nav-menu{
+  float: right;
+}
+
+#header{
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.header-item{
+  font-size: 2vh;
+  margin-top: 2vh;
+  margin-right: 1em;
+}
+
+.header-item span{
+  margin-left: 0.5em;
+}
+
+img{width: 2em; margin-left: 0.5em;}
+
+#admin{
+  margin-top: 1.5vh;
+}
+
+#language{
+  border: none;
+  background-color: #f8f9fe;
+}
+

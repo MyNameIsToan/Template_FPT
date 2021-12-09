@@ -1,0 +1,112 @@
+.btn{
+  width: 10em;
+}
+
+.page-title{
+  border-right: 0.1em solid white;
+}
+
+.btn-control{
+  background-color: #dbdbdb;
+}
+
+.ava-image{
+  width:4em;
+}
+
+.keyword{
+  display: inline-flex;
+}
+
+.user-info{
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.pagination-area{
+ margin-top: 1em;
+}
+
+.input-info{
+  width:100%;
+  height: 2.7em;
+  border: 1px solid grey;
+}
+
+.search{
+  margin-left: -1em;
+  width: 100%;
+}
+
+.btn-primary{
+  margin-top: -0.2em;
+}
+
+.entries{
+  margin-top: 1em;
+  display: inline-flex;
+}
+
+#records{
+  margin-top: 1vh;
+  margin-left: 1em;
+}
+
+.btn-search{
+  font-size: 0.8em;
+  width: 8em;
+}
+
+#footer-info{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+nav{
+  margin: 1em;
+  float: left;
+}
+
+#quantity{
+  width: 5.2em;
+  height: 5vh;
+  font-size: 0.8em;
+}
+
+.button-area{
+  margin: 1em;
+  width: 97%;
+}
+
+#filter-collapse{
+  float: right;
+}
+
+#header{
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.header-item{
+  font-size: 2vh;
+  margin-top: 2vh;
+  margin-right: 1em;
+}
+
+.header-item span{
+  margin-left: 0.5em;
+}
+
+#admin img{width: 2em; margin-left: 0.5em;}
+
+#admin{
+  margin-top: 1.5vh;
+}
+
+#language{
+  border: none;
+  background-color: #f8f9fe;
+}
